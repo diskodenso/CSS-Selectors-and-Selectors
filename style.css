@@ -1,3 +1,40 @@
-.error {
+/* p.error {
   color: red;
+}
+p.success {
+  color: blue;
+}
+p.success.feedback {
+  border: 1px dashed orange;
+}
+div#content {
+  background-color: #ebebeb;
+  padding: 20px;
+} */
+/* div .error {
+  color: red;
+}
+a[href*="denisolf"] {
+  background-color: orange;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+a[href$=".com"] {
+  background-color: orchid;
+} */
+div {
+  color: lightgrey;
+  border: 1px solid grey;
+  margin: 40px;
+  font-weight: bold;
+}
+div p {
+  margin: inherit;
+  border: inherit;
+  color: crimson;
+}
+p {
+  color: green;
 }
